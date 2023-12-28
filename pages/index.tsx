@@ -6,14 +6,14 @@ function github() {
     window.open("https://github.com/Dumb0ri");
 }
 function email() {
-    window.open("mailto:jhhhan5932@gmail.com");
+    window.open("https://youtube.com/@goldumb");
 }
 function discord() {
     window.open("https://discord.com/users/1105653154542006333");
     alert('@goldumb');
 }
 function easteregg() {
-    alert('Best Bedwars Player fr');
+    alert('IM THE BEST');
 }
 
 export default function Home() {
