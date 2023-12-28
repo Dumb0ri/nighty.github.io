@@ -10,6 +10,7 @@ function email() {
 }
 function discord() {
     window.open("https://discord.com/users/1105653154542006333");
+    alert('@goldumb');
 }
 function easteregg() {
     alert('Best Bedwars Player fr');
