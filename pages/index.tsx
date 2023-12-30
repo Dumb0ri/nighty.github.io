@@ -5,7 +5,7 @@ import Head from 'next/head'
 function github() {
     window.open("https://github.com/Dumb0ri");
 }
-function email() {
+function yt() {
     window.open("https://youtube.com/@goldumb");
 }
 function discord() {
@@ -19,7 +19,7 @@ function easteregg() {
 export default function Home() {
   return (
       <main className="flex justify-center items-center font opacity-80 font['Pretendard']">
-          <div className="flex items-center flex-col bg-[#6277BF] rounded-[15px] w-[280px] h-[566px] drop-shadow-[19px_19px_10px_rgba(0,0,0,0.25)] mt-[7%]">
+          <div className="flex items-center flex-col bg-[#fcf7c1] rounded-[15px] w-[280px] h-[566px] drop-shadow-[19px_19px_10px_rgba(0,0,0,0.25)] mt-[7%]">
               <Head>
                   <title>Goldumb Profile Site</title>
                   <link rel="icon" href="/favicon.png" sizes="any"/>
@@ -32,7 +32,7 @@ export default function Home() {
                   onClick={easteregg}
                   className="mt-[30px]"
               />
-              <p className="text-[56px]">Goldumb</p>
+              <p className="text-[45px]">Goldumb</p>
               <div className="flex mb-[10px]">
                   <Image
                       src="/image/discord.png"
@@ -51,11 +51,11 @@ export default function Home() {
                       className="mr-[25px] hover:cursor-pointer"
                   />
                   <Image
-                      src="/image/envelope.png"
+                      src="/image/ytlogoog.png"
                       width={25}
                       height={1}
                       alt=""
-                      onClick={email}
+                      onClick={yt}
                       className="mr-[25px] hover:cursor-pointer"
                   />
               </div>
