@@ -2,18 +2,13 @@ import Image from 'next/image'
 import Typewriter from 'typewriter-effect';
 import Head from 'next/head'
 
-function github() {
-    window.open("https://github.com/Dumb0ri");
-}
-function yt() {
-    window.open("https://youtube.com/@goldumb");
-}
+
 function discord() {
-    window.open("https://discord.com/users/1105653154542006333");
-    alert('@goldumb');
+    window.open("https://discord.com/users/706911188356694087");
+    alert('@nighty.lol');
 }
 function easteregg() {
-    alert('IM THE BEST');
+    alert('NIGHTY ON TOP');
 }
 
 export default function Home() {
@@ -21,7 +16,7 @@ export default function Home() {
       <main className="flex justify-center items-center font opacity-80 font['Pretendard']">
           <div className="flex items-center flex-col bg-[#fcf7c1] rounded-[15px] w-[280px] h-[566px] drop-shadow-[19px_19px_10px_rgba(0,0,0,0.25)] mt-[7%]">
               <Head>
-                  <title>Goldumb Profile Site</title>
+                  <title>Nighty's Profile Site</title>
                   <link rel="icon" href="/favicon.png" sizes="any"/>
               </Head>
               <Image
@@ -32,7 +27,7 @@ export default function Home() {
                   onClick={easteregg}
                   className="mt-[30px]"
               />
-              <p className="text-[45px]">Goldumb</p>
+              <p className="text-[45px]">Nighty</p>
               <div className="flex mb-[10px]">
                   <Image
                       src="/image/discord.png"
@@ -63,32 +58,8 @@ export default function Home() {
                   <Typewriter
                       onInit={(typewriter) => {
                           typewriter
-                              .typeString("#Hello, World!")
-                              .pauseFor(3000)
-                              .deleteAll()
-                              .typeString("#Age 16")
-                              .pauseFor(3000)
-                              .deleteAll()
-                              .typeString("#Developer")
-                              .pauseFor(3000)
-                              .deleteAll()
-                              .typeString("Java, JS, C, etc..")
-                              .pauseFor(3000)
-                              .deleteAll()
-                              .typeString("#Translator")
-                              .pauseFor(3000)
-                              .deleteAll()
-                              .typeString("Minecraft, Hypixel, etc..")
-                              .pauseFor(3000)
-                              .deleteAll()
-                              .typeString("Minecraft enthusiast.")
-                              .pauseFor(3000)
-                              .deleteAll()
-                              .typeString("I create reliable outcomes.")
-                              .pauseFor(3000)
-                              .deleteAll()
-                              .typeString("I'm also dumb")
-                              .pauseFor(3000)
+                              .typeString("Wassup")
+                              .pauseFor(15000)
                               .deleteAll()
                               .start();
                       }}
