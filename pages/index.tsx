@@ -16,7 +16,7 @@ export default function Home() {
       <main className="flex justify-center items-center font opacity-80 font['Pretendard']">
           <div className="flex items-center flex-col bg-[#000000] rounded-[15px] w-[280px] h-[566px] drop-shadow-[19px_19px_10px_rgba(0,0,0,0.25)] mt-[7%]">
               <Head>
-                  <title>Nighty's Profile Site</title>
+                  <title>Nighty Profile Site</title>
                   <link rel="icon" href="/favicon.png" sizes="any"/>
               </Head>
               <Image
