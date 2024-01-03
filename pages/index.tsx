@@ -37,21 +37,9 @@ export default function Home() {
                       onClick={discord}
                       className="ml-[25px] mr-[25px] hover:cursor-pointer"
                   />
-                  <Image
-                      src="/image/github.png"
-                      width={25}
-                      height={1}
-                      alt=""
-                      onClick={github}
-                      className="mr-[25px] hover:cursor-pointer"
-                  />
-                  <Image
-                      src="/image/ytlogoog.png"
-                      width={25}
-                      height={1}
-                      alt=""
-                      onClick={yt}
-                      className="mr-[25px] hover:cursor-pointer"
+                  
+                      
+"
                   />
               </div>
               <div>
