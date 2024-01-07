@@ -1,14 +1,14 @@
-import Image from 'next/image'
-import Typewriter from 'typewriter-effect';
-import Head from 'next/head'
+import Image from "next/image"
+import Typewriter from "typewriter-effect";
+import Head from "next/head"
 
 
 function discord() {
     window.open("https://discord.com/users/706911188356694087");
-    alert('@nighty.lol');
+    alert("@nighty.lol");
 }
 function easteregg() {
-    alert('NIGHTY ON TOP');
+    alert("NIGHTY ON TOP");
 }
 
 export default function Home() {
