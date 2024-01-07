@@ -42,7 +42,7 @@ export default function Home() {
                   <Typewriter
                       onInit={(typewriter) => {
                           typewriter
-                              .typeString("Oh Hey")
+                              .typeString("oh hey")
                               .pauseFor(15000)
                               .deleteAll()
                               .start();
