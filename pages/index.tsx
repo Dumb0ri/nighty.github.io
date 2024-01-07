@@ -27,7 +27,7 @@ export default function Home() {
                   onClick={easteregg}
                   className="mt-[30px]"
               />
-              <p className="text-[45px]">Nighty</p>
+              <p className="text-[45px]">nighty</p>
               <div className="flex mb-[10px]">
                   <Image
                       src="/image/discord.png"
@@ -42,7 +42,7 @@ export default function Home() {
                   <Typewriter
                       onInit={(typewriter) => {
                           typewriter
-                              .typeString("Wassup")
+                              .typeString("Oh Hey")
                               .pauseFor(15000)
                               .deleteAll()
                               .start();
