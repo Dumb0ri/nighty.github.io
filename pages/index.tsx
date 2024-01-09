@@ -56,8 +56,8 @@ export default function Home() {
               <footer>
                     <div className="absolute bottom-5 right-5">
                         <p className="text-[10px] mt-[45%]">
-                            &#169; Copyright 2023{" "}
-                            <a href="https://github.com/noobnuby">noobnuby</a>
+                            &#169; Copyright 2024{" "}
+                            <a href="https://github.com/dumb0ri">Goldumb</a>
                         </p>
                         <p className="text-[10px] text-right">
                             All rights reserved
